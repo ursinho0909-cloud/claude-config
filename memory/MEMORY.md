@@ -100,3 +100,5 @@
 - [Englisch-Landkarte (inglês p/ DE)](project_englisch_landkarte.md) — mapas PT-BR do usuário traduzidos direto na imagem (inpaint+Ink Free), script em Desktop\PROJETOS\englisch-landkarte; teste mapa família OK 06/10
 - [Checar anúncios inativos](feedback_checar_anuncios_inativos.md) — país "vazio" pode ser teste abandonado; sempre buscar active_status=all
 - [Crochê Natal DE→FR (100 fichas)](project_croche_natal_de.md) — coleção própria, lotes de 10 via Manus, Lote 1 Tischdeko pronto em Desktop\PROJETOS\croche-natal-de
+- [Sync do Claude entre PCs](project_claude_config_sync.md) — repo privado claude-config c/ memória+skills; sync-claude.ps1; usuário roda o push com ! (auto mode bloqueia)
+- [Varredura Natal BR 09/10](project_varredura_natal_br_2026_10_09.md) — só crochê forte; feltro descartado na Europa (só físico); recomendado crochê Natal em PT (Juliana Crochê validou) e ES
