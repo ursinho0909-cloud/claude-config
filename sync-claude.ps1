@@ -24,7 +24,7 @@ foreach ($p in $pares) {
     robocopy $p.repo  $p.local /E /XO /NJH /NJS /NFL /NDL /NP | Out-Null   # repo -> PC
     robocopy $p.local $p.repo  /E /XO /NJH /NJS /NFL /NDL /NP | Out-Null   # PC -> repo
 }
-foreach ($f in 'settings.json', 'statusline.ps1') {
+foreach ($f in 'settings.json', 'statusline.ps1', 'CLAUDE.md') {
     $r = Join-Path $repo $f; $l = Join-Path $claude $f
     if ((Test-Path $r) -and (-not (Test-Path $l) -or (Get-Item $r).LastWriteTime -gt (Get-Item $l).LastWriteTime)) { Copy-Item $r $l -Force }
     elseif (Test-Path $l) { Copy-Item $l $r -Force }
